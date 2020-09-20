@@ -1,0 +1,1461 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/trunk/html5.js"></script>
+	<![endif]-->
+  <title>MODIA-MAIN</title>
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> <!--CDN 링크 -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ </head>
+ <body>
+      <!-- 헤더 -->
+      <header>
+
+        <!-- 백그라운드 -->
+        <div class="container2">
+
+        </div>
+
+        <div class="header-nav">
+          <h1>
+            <a href="main.html"><img class="logo" src="image/logo.png"></a>
+          </h1>
+
+          <form>
+            <input type="search" placeholder="Search.." class="search-form">
+            <i class="fas fa-search"></i>
+          </form>
+
+
+
+          <div class="search">
+            <form class="search-box"method="post">
+              <input type="text" class="input" style="color:white">
+              <button type="button" class="btn" name="button"></button>
+            </form>
+          </div>
+
+          <a class="toggle_btn" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+          </a>
+
+          <ul class="header-right" id="mySidenav">
+
+            <div class="allmenu_view2">
+              <a>
+                전체매뉴
+              </a>
+              <div>
+
+                <ul>
+                  <li class="c1"><a href="#">장르</a>
+                    <ul id="sea1" class="sea">
+                      <li><a href="#" style="font-size:15px">액션</a></li>
+                      <li><a href="#" style="font-size:15px">로코</a></li>
+                      <li><a href="#" style="font-size:15px">판타지</a></li>
+                      <li><a href="#" style="font-size:15px">시대극</a></li>
+                      <li><a href="#" style="font-size:15px">시트콤</a></li>
+                      <li><a href="#" style="font-size:15px">전쟁</a></li>
+                      <li><a href="#" style="font-size:15px">SF</a></li>
+                      <li><a href="#" style="font-size:15px">로맨스</a></li>
+                      <!-- <li><a href="#" style="font-size:15px">재난</a></li> -->
+                      <li><a href="#" style="font-size:15px">모험</a></li>
+                      <li><a href="#" style="font-size:15px">코미디</a></li>
+                      <li><a href="#" style="font-size:15px">드라마</a></li>
+                      <li><a href="#" style="font-size:15px">단편선</a></li>
+                      <li><a href="#" style="font-size:15px">역사</a></li>
+                      <li><a href="#" style="font-size:15px">스포츠</a></li>
+                      <li><a href="#" style="font-size:15px">가족</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="c2"><a href="#">국가</a>
+                    <ul id="sea2" class="sea">
+                      <li><a href="#" style="font-size:15px">한국</a></li>
+                      <li><a href="#" style="font-size:15px">캐나다</a></li>
+                      <li><a href="#" style="font-size:15px">미국</a></li>
+                      <li><a href="#" style="font-size:15px">스페인</a></li>
+                      <li><a href="#" style="font-size:15px">독일</a></li>
+                      <li><a href="#" style="font-size:15px">프랑스</a></li>
+                      <li><a href="#" style="font-size:15px">홍콩</a></li>
+                      <li><a href="#" style="font-size:15px">일본</a></li>
+                      <li><a href="#" style="font-size:15px">중국</a></li>
+                      <li><a href="#" style="font-size:15px">호주</a></li>
+                      <li><a href="#" style="font-size:15px">대만</a></li>
+                      <li><a href="#" style="font-size:15px">라오스</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="c3"><a href="#">특징</a>
+                    <ul id="sea3" class="sea">
+                      <li><a href="#" style="font-size:15px">첫사랑</a></li>
+                      <li><a href="#" style="font-size:15px">코미디</a></li>
+                      <li><a href="#" style="font-size:15px">코미디</a></li>
+                      <li><a href="#" style="font-size:15px">퓨전</a></li>
+                      <li><a href="#" style="font-size:15px">KBS</a></li>
+                      <li><a href="#" style="font-size:15px">시련</a></li>
+                      <li><a href="#" style="font-size:15px">완성도</a></li>
+                      <li><a href="#" style="font-size:15px">부자</a></li>
+                      <li><a href="#" style="font-size:15px">왕위</a></li>
+                      <li><a href="#" style="font-size:15px">스릴러</a></li>
+                      <li><a href="#" style="font-size:15px">첫사랑</a></li>
+                      <li><a href="#" style="font-size:15px">곤충</a></li>
+                      <li><a href="#" style="font-size:15px">저항</a></li>
+                      <li><a href="#" style="font-size:15px">총격전</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="allmenu_view"><a style="color:white">전체매뉴</a></div>
+            <li><a href="navigate.html">탐색하기</a></li>
+            <li><a href="use_ticket.html">이용권</a></li>
+            <li onclick="document.getElementById('id01').style.display='block'" style="cursor:pointer"><a>로그인</a></li>
+            <li><a href="faq.html">공지사항</a></li>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i style="color:#818181" class="fas fa-times all_close2"></i></a>
+          </ul>
+
+          <div id="id01" class="modal">
+            <form class="modal-content animate" method="post">
+              <div class="imgcontainer">
+                <!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="closeModal">&timges;</span> -->
+                <img src="image/logo.png" alt="" class="avater">
+              </div>
+
+              <div class="container3">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button style="background-color:red" type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+
+              <div class="can-container" style="background-color:#000">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              </div>
+            </form>
+          </div>
+
+
+          <nav class="navi">
+
+            <ul class="tab-nav">
+              <li><a style="font-size:19px" href="#">장르</a></li>
+              <li><a style="font-size:19px" href="#">국가</a></li>
+              <li><a style="font-size:19px" href="#">특징</a></li>
+            </ul>
+
+            <div class="navi-sub">
+              <ul>
+                <li><a href="#">액션</a></li>
+                <li><a href="#">로맨틱코미디</a></li>
+                <li><a href="#">판타지</a></li>
+                <li><a href="#">틴에이저</a></li>
+                <li><a href="#">시대극</a></li>
+                <li><a href="#">SF</a></li>
+                <li><a href="#">전쟁</a></li>
+                <li><a href="#">시트콤</a></li>
+                <li><a href="#">애니메이션</a></li>
+              </ul>
+
+              <ul>
+                <li><a href="#">로멘스</a></li>
+                <li><a href="#">재난</a></li>
+                <li><a href="#">모험</a></li>
+                <li><a href="#">음악</a></li>
+                <li><a href="#">범죄</a></li>
+                <li><a href="#">공포</a></li>
+                <li><a href="#">코미디</a></li>
+                <li><a href="#">시사교양</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+
+              <ul>
+                <li><a href="#">드라마</a></li>
+                <li><a href="#">역사</a></li>
+                <li><a href="#">스포츠</a></li>
+                <li><a href="#">키즈</a></li>
+                <li><a href="#">미스터리</a></li>
+                <li><a href="#">가족</a></li>
+                <li><a href="#">스릴러</a></li>
+                <li><a href="#">다큐멘터리</a></li>
+                <li><a href="#">단편전</a></li>
+              </ul>
+            </div>
+
+            <div class="navi-sub">
+              <ul>
+                <li><a href="#">한국</a></li>
+                <li><a href="#">캐나다</a></li>
+                <li><a href="#">스페인</a></li>
+                <li><a href="#">이탈리아</a></li>
+                <li><a href="#">미국</a></li>
+              </ul>
+
+              <ul>
+                <li><a href="#">인도</a></li>
+                <li><a href="#">대만</a></li>
+                <li><a href="#">영국</a></li>
+                <li><a href="#">일본</a></li>
+              </ul>
+
+              <ul>
+                <li><a href="#">독일</a></li>
+                <li><a href="#">프랑스</a></li>
+                <li><a href="#">홍콩</a></li>
+                <li><a href="#">중국</a></li>
+              </ul>
+            </div>
+
+            <div class="navi-sub">
+              <ul>
+                <li><a href="#">마블</a></li>
+                <li><a href="#">학교배경</a></li>
+                <li><a href="#">고려시대</a></li>
+                <li><a href="#">통쾌한</a></li>
+                <li><a href="#">좌충우돌</a></li>
+                <li><a href="#">첫사랑</a></li>
+                <li><a href="#">곤충</a></li>
+                <li><a href="#">저항</a></li>
+                <li><a href="#">총격전</a></li>
+              </ul>
+
+              <ul>
+                <li><a href="#">안타까운</a></li>
+                <li><a href="#">코미디</a></li>
+                <li><a href="#">퓨전</a></li>
+                <li><a href="#">KBS</a></li>
+                <li><a href="#">시련</a></li>
+                <li><a href="#">스릴있는</a></li>
+                <li><a href="#">완성도</a></li>
+                <li><a href="#">부자</a></li>
+                <li><a href="#">왕위</a></li>
+              </ul>
+
+              <ul>
+                <li><a href="#">웃긴</a></li>
+                <li><a href="#">조선시대</a></li>
+                <li><a href="#">악당</a></li>
+                <li><a href="#">다중인격</a></li>
+                <li><a href="#">희망적인</a></li>
+                <li><a href="#">카리스마</a></li>
+                <li><a href="#">봉사</a></li>
+                <li><a href="#">뮤지션</a></li>
+                <li><a href="#">권성징악</a></li>
+              </ul>
+            </div>
+
+            <!-- <a class="all_close" style="color:white">닫기</a> -->
+            <i class="fas fa-times all_close"></i>
+          </nav>
+
+        </div>
+      </header>
+    <!-- 헤더 end-->
+
+    <!-- 컨텐츠 -->
+    <section>
+      <img class="banner" src="image/banner/banner1.png" alt="">
+
+        <div class="contents-mid-five">
+          <div class="contents-mid-left1 movie">
+            <p style="font-size:30px"><b>MOVIE<br>
+              <span style="font-size:18px">박스오피스</span></b></p>
+          </div>
+
+          <div class="contents-mid-right1">
+            <ul>
+                  <li>
+                    <a>
+                      <div class="container">
+                        <img class="test" src="image/contents(desktop)/movie(desktop)/ferriswheel.jpg">
+                        <div class="overlay" style="font-size:13px">
+                          <div style="font-size:20px">대관람차</div><br>
+
+                          <span class="fa fa-star checked" ></span>
+          								<span class="fa fa-star checked" ></span>
+          								<span class="fa fa-star checked" ></span>
+          								<span class="fa fa-star checked" ></span>
+          								<span class="fa fa-star checked"></span>
+                          <br><br>
+                          뮤직 시네마<br><br>
+                          감독 : 백재호, 이희섭<br>
+                          배우 : 강두, 호리 하루나<br><br>
+                          선박사고로 실종된 선배 대정 대신 오사카에 출장 온 선박회사 대리 ‘우주’.
+                          출장 마지막 날, 대정과 닮은 남자를 보고 무작정 쫓아가는데....
+
+
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img  src="image/contents(desktop)/movie(desktop)/project.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">플로리다 프로젝트</div><br>
+
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star " ></span>
+                      <span class="fa fa-star "></span>
+                      <br><br>
+                      드라마<br><br>
+                      감독 : 션 베이커<br>
+                      배우 : 월렘 대포,부르클린 프린스, 브리아 비나이트<br><br>
+                      플로리다 디즈니 월드 건너편 '매직 캐슬'에 사는
+                      귀여운 6살 꼬마 '무니'와 친구들의
+                      디즈니월드 보다 신나는 무지개 어드밴처!
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/movie(desktop)/loveagain.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">러브 어게인</div><br>
+
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star "></span>
+                      <br><br>
+                      코미디,드라마<br><br>
+                      감독 : 로버트 에드워즈<br>
+                      배우 : 크리스토퍼 월켄, 앰버허드<br><br>
+                      무대에서 빛나는 가수를 꿈꾸지만 현실은 코러스 신세인'주드'<br>
+                      한때는 스타 가수였지만 이제는 한물간 '주드'의 아버지 '폴'........<br>
+
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/movie(desktop)/willyou.jpg">
+                    <div class="overlay" style="font-size:13px">
+
+                      <div style="font-size:18px">당신, 거기 있어줄래요</div><br>
+
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked"></span>
+                      <br><br>
+                      판타지,드라마<br><br>
+                      감독 : 홍지영<br>
+                      배우 : 김윤석,변요한,채서진<br><br>
+                      수현(김윤석)은 봉사 활동 중 한 소녀의 생명을 구하고
+                      소녀의 할아버지로부터 신비로운 10개의 알약을 답례로 받는데......<br>
+
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+
+              <li class="last1">
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/movie(desktop)/tomorrow.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:18px">나는 내일, 어제의 너와 만난다.</div><br>
+
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star checked" ></span>
+                      <span class="fa fa-star "></span>
+                      <br><br>
+                        멜로/로맨스,판타<br><br>
+                        감독 : 미키 타카히로<br>
+                        배우 : 후쿠시 소우타, 고마츠 나나<br><br>
+                        스무 살의'타카토시'는 지하철에서 우연히 만난
+                        '에미'를 보고 순식간에 마음을 빼앗기고 고백하게된다.
+                        두사람은 연인이 되고, 행복한 나날을 보내는데....
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="contents-mid-six">
+          <div class="contents-mid-left2 live">
+            <p style="font-size:30px"><b>LIVE<br><span style="font-size:18px;">실시간 인기순</span></b></p>
+          </div>
+
+          <div class="contents-mid-right2">
+            <ul>
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/live(desktop)/아는형님.jpg">
+                    </div>
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>나 혼자 산다 - 287회</h2>
+                        <br>
+                        <span>
+                          방송일 2019.03.15 (금) 오후 11:10<br><br>
+                          시청률 11.9%<br><br>
+                          출연 기안84 이시언 헨리 성훈
+                          <hr>
+                          이시언 & 기안84 & 성훈 - 얼트리오 in 홍콩 1탄. '얼장' 시언, '2얼' 기안, '뉴얼' 성훈이 홍콩에 떴다!
+                          홍콩의 핫플레이스! 야시장에서 3인 3색 쇼핑 타임을 즐기는데..! 숨겨왔던~ 나의~ 물욕 폭발?!
+                          지름신 제대로 강림한 '호갱(?)84'의 마이웨이 쇼핑 스타트! 흥정에서 빛을 발하는
+                          시언의 맞춤형 영어부터~ '스트리트 푸드파이터'로 거듭난 성훈의 먹방까지!
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/live(desktop)/나혼자산다.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>나 혼자 산다 - 287회</h2>
+                        <br>
+                        <span>
+                          방송일 2019.03.15 (금) 오후 11:10<br><br>
+                          시청률 11.9%<br><br>
+                          출연 기안84 이시언 헨리 성훈
+                          <hr>
+                          이시언 & 기안84 & 성훈 - 얼트리오 in 홍콩 1탄. '얼장' 시언, '2얼' 기안, '뉴얼' 성훈이 홍콩에 떴다!
+                          홍콩의 핫플레이스! 야시장에서 3인 3색 쇼핑 타임을 즐기는데..! 숨겨왔던~ 나의~ 물욕 폭발?!
+                          지름신 제대로 강림한 '호갱(?)84'의 마이웨이 쇼핑 스타트! 흥정에서 빛을 발하는
+                          시언의 맞춤형 영어부터~ '스트리트 푸드파이터'로 거듭난 성훈의 먹방까지!
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="last">
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/live(desktop)/quiz.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>유 퀴즈 온 더 블럭 - 10회</h2>
+                        <br>
+                        <span>
+                          방송일 2018.10.31 (수) 오후 11:00<br><br>
+                          시청률 1.6%<br><br>
+                          출연 유재석 조세호
+                          <hr>
+                          서프라이즈 길거리 퀴즈쇼 유 퀴즈 온 더 블럭!
+                          세호의 TME(Too Much Episode)와 함께 출발~
+                          유재석을 눈물 흘리게 한 전설의 시민 등장!
+                          1대 사넬 미용실과 2대 갤러리 과장님을 잇는~
+                          은평구 산새 마을 고수의 입담은 과연?
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <ul>
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/live(desktop)/사이코지만괜찮아2.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>사이코지만 괜찮아 - 4회</h2>
+                        <br>
+                        <span>
+                          방송일 2020.06.28 (일) 오후 09:00<br><br>
+                          시청률 4.9%<br><br>
+                          출연 김수현 서예지 박규영 오정세
+                          <hr>
+                          권기도의 탈원 사건을 계기로 문영을 다시 보게 되는 강태..
+                          그것도 잠시. 문영의 말 한마디로 인해, 여전히 좁혀질 수
+                          없는 서로의 차이를 확인한 강태는 문영에게 깊은 실망감을
+                          느끼게 된다. 한편, '저주받은 성'에서 홀로 남겨진 문영은
+                          시시때때로 엄마의 환영과 마주하는데.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/live(desktop)/당신이잠든사이에2.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>사이코지만 괜찮아 - 4회</h2>
+                        <br>
+                        <span>
+                          방송일 2020.06.28 (일) 오후 09:00<br><br>
+                          시청률 4.9%<br><br>
+                          출연 김수현 서예지 박규영 오정세
+                          <hr>
+                          권기도의 탈원 사건을 계기로 문영을 다시 보게 되는 강태..
+                          그것도 잠시. 문영의 말 한마디로 인해, 여전히 좁혀질 수
+                          없는 서로의 차이를 확인한 강태는 문영에게 깊은 실망감을
+                          느끼게 된다. 한편, '저주받은 성'에서 홀로 남겨진 문영은
+                          시시때때로 엄마의 환영과 마주하는데.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="last">
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/live(desktop)/비긴어게인.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>비긴 어게인3 - 15회</h2>
+                        <br>
+                        <span>
+                          방송일 2019.11.01 (금) 오후 09:00<br><br>
+                          시청률 3.9%<br><br>
+                          출연 태연 하림 헨리 김필 폴킴
+                          <hr>
+                          Welcome 딕투적폴탱. 다시 돌아온 다섯 멤버들! <비긴어게인 3> 열다섯 번째 이야기!
+                          독일 베를린을 떠나~ 이번엔 네덜란드의 수도이자 운하로 둘러싸인 아름다운 도시,
+                          암스테르담이다! 이적 X 태연 X 폴킴 X 현우 X 적재의 설레는 암스테르담 버스킹 여행기!
+                          반짝이는 호수가 그림처럼 펼쳐진 숙소에서 흘러나온 노랫소리?!
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <img class="banner" src="image/banner/banner2.png" alt="">
+
+        <div class="contents-mid-five">
+          <div class="contents-mid-left1 clip">
+            <p style="font-size:30px"><b>CLIP<br>
+              <span style="font-size:16px">실시간 인기순</span></b></p>
+          </div>
+
+          <div class="contents-mid-right1">
+            <ul>
+                  <li>
+                    <a>
+                      <div class="container">
+                        <img class="test" src="image/contents(desktop)/mostclip(desktop)/1day3food.jpg">
+                        <div class="overlay" style="font-size:13px">
+                          <div style="font-size:20px">삼시세끼5 - 어촌편5</div><br>
+                          예능<br><br>
+                          편성 tvN | 2020.05.01<br><br>
+                          출연 차승원 유해진 손호준<br><br>
+
+                          화창한 봄날, 5년 만에 다시 한배를 탄 세 식구! <삼시세끼 어촌편> 다섯 번째 이야기가 지금 시작됩니다.
+                          여객선도 다니지 않는 외딴 섬! 바다가 한눈에 들어오는 돌담과 아늑한 별채까지 겸비한
+                           'New 세끼 하우스'에 '손이 차 유' 3인방이 찾아왔습니다. 오랜만에 아궁이 불 지피랴,
+                           재료 손질하랴 부랴부랴 첫 끼니를 준비하는 세 식구들!
+
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img class="test" src="image/contents(desktop)/mostclip(desktop)/couple's-world.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">부부의 세계</div><br>
+                      드라마<br><br>
+                      편성 tvN | 2020.03.28<br><br>
+                      출연 김희애 박해준 한소희 박선영 김영민 등<br><br>
+
+                      남편 태오의 외도와 자신을 둘러싼 사람들의 민낯을 마주하게 된 선우는 배신감에 크게 분노한다.
+                      태오와 제혁의 다툼을 뒤로 한 채 자리를 떠나는 선우. 그녀는 혼란스러운 이 상황을 쉽게
+                      받아들이기가 힘들다. 한편, 병원에 진료를 받으러 온 다경을 진찰하던 선우는 애써 평정심을
+                      찾으려 하지만 상상하지도 못한 다경의 도발에 흔들리고 마는데...
+
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/mostclip(desktop)/doctor.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">슬기로운 의사생활</div><br>
+                      드라마<br><br>
+                      편성 tvN | 2020.03.12<br><br>
+                      출연 조정석 유연석 정경호 김대명 전미도 등<br><br>
+
+                      99학번 의예과 동갑내기 친구들, 영원할 줄 알았던 친구들과의 우정은 점점 희미해지고,
+                      이젠 내 앞에 있는 환자 보기에도 24시간이 부족한 40대 "의사"가 되었다. 그렇게 각기
+                      다른 인생 형태로 살아가던 다섯 명의 친구들에게 한 통의 전화가 걸려오는데!
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/mostclip(desktop)/play.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">놀면 뭐하니?</div><br>
+                      예능<br><br>
+                      편성 MBC | 2019.07.27<br><br>
+                      출연 유재석<br><br>
+
+                      [싹쓰리] 싹쓰리와 수발놈(?) 광희도 함께한 여름 커버곡 '여름 안에서' 촬영 현장 공개!
+                      청량감 가득한 개인 촬영부터 웃음 넘치는 단체 촬영까지. 본격, 첫 번째 녹음에 들어간 '싹쓰리.'
+                      한 명 한 명 쌓아가는 하모니. 서로가 있기에 더욱 빛나는 순간. '싹쓰리' <다시 여기 바닷가> coming soon!...
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+
+              <li class="last1">
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/mostclip(desktop)/trot.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">미스터 트롯</div><br>
+                        음악,예능<br><br>
+                        편성 TV조선 | 2020.01.02<br><br>
+                        출연 김성주 장윤정 조영수 노사연 이무송 등<br><br>
+
+                        이번엔 남자다! 미스터트롯. 눈 뗄 수 없는 트롯의 신세계. 장르 불문 실력자 총집합.
+                        화끈한 비주얼은 덤. 이번엔 트롯 보이다. 트롯 영재단의 발칙한 무대. 눈물 없이 못 보는
+                        애절한 트롯의 맛. 쏟아지는 마스터들의 호평. 2020년 트롯 어벤져스가 온다.
+
+
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contents-mid-six">
+          <div class="contents-mid-left2 sport">
+            <p style="font-size:30px"><b>SPORT<br>
+              <span style="font-size:18px">오늘의 경기</span></b>
+            </p>
+          </div>
+
+          <div class="contents-mid-right2">
+            <ul>
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/sport(desktop)/baseball.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>KIA 타이거즈  VS   NC다이노스</h2>
+                        <br>
+                        <span>
+                          방송일 2020.07.03 (금) 오후 06:30<br><br>
+                          <hr>
+
+
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/sport(desktop)/golf.jpg">
+
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>KIA 타이거즈  VS   NC다이노스</h2>
+                        <br>
+                        <span>
+                          방송일 2020.07.03 (금) 오후 06:30<br><br>
+                          <hr>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="last">
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/sport(desktop)/soccer.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>KIA 타이거즈  VS   NC다이노스</h2>
+                        <br>
+                        <span>
+                          방송일 2020.07.03 (금) 오후 06:30<br><br>
+                          <hr>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/sport(desktop)/basketball.jpg">
+
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>KIA 타이거즈  VS   NC다이노스</h2>
+                        <br>
+                        <span>
+                          방송일 2020.07.03 (금) 오후 06:30<br><br>
+                          <hr>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/sport(desktop)/tennis.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>KIA 타이거즈  VS   NC다이노스</h2>
+                        <br>
+                        <span>
+                          방송일 2020.07.03 (금) 오후 06:30<br><br>
+                          <hr>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="last">
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/sport(desktop)/volleyball.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>KIA 타이거즈  VS   NC다이노스</h2>
+                        <br>
+                        <span>
+                          방송일 2020.07.03 (금) 오후 06:30<br><br>
+                          <hr>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <img class="banner" src="image/banner/banner3.png" alt="">
+
+        <div class="contents-mid-five">
+          <div class="contents-mid-left1 box-office">
+            <p style="font-size:30px"><b>BOX<br>OFFICE <br>
+              <span style="font-size:16px">실시간 인기순</span></b>
+            </p>
+          </div>
+
+          <div class="contents-mid-right1">
+            <ul>
+                  <li>
+                    <a>
+                      <div class="container">
+                        <img class="test" src="image/contents(desktop)/boxoffice(desktop)/ican.jpg">
+                        <div class="overlay" style="font-size:13px">
+                          <div style="font-size:20px">아이 캔 온리 이매진</div><br>
+                          드라마 음악 가족<br><br>
+                          감독 : 앤드류 어윈, 존 어윈<br>
+                          배우 : J. 마이클 핀리, 데니스 퀘이드<br><br>
+
+                          음악과 잡동사니를 좋아하는 소년 ‘바트’.
+                          그는 언제나 희망찬 미래를 꿈꾼다.
+
+                          “넌 한참 모자라, 꿈은 돈이 안돼”
+                          하지만, 아버지의 폭력과 불행을 참지 못해 떠난 엄마.
+                          지옥 같았던 유년 시절을 벗어나
+                          밴드 머시미(Mercy Me)로 홀로 서보지만
+                          어린 시절의 트라우마는 계속해서 그를 괴롭히는데…
+
+                          “이제 용서하려 합니다”
+                          더 이상 도망치지 않기 위해 용기 내 아버지를 마주하는 ‘바트’.
+                          과연, 상처 받은 아이의 음악은 어떻게 세상을 울릴 수 있을까?
+
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img class="test" src="image/contents(desktop)/boxoffice(desktop)/intruder.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">침입자</div><br>
+                      미스터리 스릴러<br><br>
+                      감독 : 손원평<br>
+                      배우 : 송지효 김무열<br><br>
+
+                      25년만에 돌아온 동생,
+                      나는 그녀가 의심스럽다!
+                      얼마 전 사고로 아내를 잃고 실의에 빠져 있는 건축가 ‘서진’에게
+                      25년 전 실종된 동생을 찾았다는 연락이 온다
+                      처음 본 자신을 친근하게 “오빠”라고 부르는 ‘유진’이 어딘가 불편한 ‘서진’과 달리
+                      가족들은 금세 그녀를 받아들인다
+
+
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/boxoffice(desktop)/whitehands.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">결백</div><br>
+                      드라마<br><br>
+                      감독 : 박상현<br>
+                      배우 : 신혜선,배종옥,허준호<br><br>
+
+                      “대천의 장례식장에서 농약 막걸리 살인사건 발생. 용의자 긴급 체포“
+                      유명 로펌의 에이스 변호사 ‘정인(신혜선)’은 아빠의 장례식장에서 농약 막걸리 살인사건이 일어났음을 알게 된다.
+                      치매에 걸린 엄마 ‘화자(배종옥)’가 용의자로 지목되고,
+                      그녀의 결백을 주장하기 위해 고향으로 내려가 직접 변호를 맡는다.
+                      사건을 추적하던 중 시장 ‘추인회(허준호)’를 중심으로 한 마을 사람들의
+                      조직적 은폐와 거짓 진술 등 수상한 정황을 포착한 ‘정인’.
+                      그날의 기억을 모두 잃은 ‘화자’의 결백을 입증하기 위해 모든 사람들과 맞서기 시작하는데…!
+
+                      파헤칠수록 커지는 의혹,
+                      과연 진실은 무엇인가?
+
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/boxoffice(desktop)/onward.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">온워드</div><br>
+                      판타지,모험<br><br>
+                      감독 : 댄 스캔론<br>
+                      성우 : 톰 홀랜드,크리스 프랫<br><br>
+
+                      마법이 허락된 단 하루, 지금 만나고 싶은 사람이 있나요?
+                      마법이 사라진 세상에 살고 있는 취향과 성격 모두 정반대의 두 형제인
+                      철든 동생 ‘이안’(톰 홀랜드)과 의욕충만 형 ‘발리’(크리스 프랫).
+
+                      ‘이안’은 태어나서 얼굴도 본 적 없는 아빠를 그리워하던 중, 서프라이즈 생일 선물로
+                      아빠의 마법 지팡이를 받게 된다. 그러나 실수로, 아빠의 반쪽만 소환시키는 위기가 발생하는데!!
+
+                      주어진 시간은 단 하루, 두 형제는 완벽한 모습의 아빠를 찾기 위해 모험을 떠나고
+                      마법으로 절벽을 건너고, 까마귀 봉우리의 힌트를 따라 관문을 통과하지만
+                      서로 다른 성격으로 인해, 사사건건 부딪히게 되고, 위험이 발생하는데…
+                      과연 이들은 무사히 기적을 이룰 수 있을까?
+
+                      기적을 향한 출발, 지금 당신을 만나러 갑니다.
+
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+
+              <li class="last1">
+                <a>
+                  <div class="container">
+                    <img src="image/contents(desktop)/boxoffice(desktop)/alive.jpg">
+                    <div class="overlay" style="font-size:13px">
+                      <div style="font-size:20px">살아있다</div><br>
+                        드라마<br><br>
+                        감독 : 조일형<br>
+                        배우 : 유아인 박신혜<br><br>
+
+                        원인불명 증세의 사람들의 공격에 통제 불능에 빠진 도시.
+                        영문도 모른 채 잠에서 깬 ‘준우’(유아인)는 아무도 없는 집에 혼자 고립된 것을 알게 된다.
+                        데이터, 와이파이, 문자, 전화 모든 것이 끊긴 채 고립된 상황.
+                        연락이 두절된 가족에 이어 최소한의 식량마저 바닥이 나자 더 이상 버티기 힘들어진 ‘준우’.
+                        하지만 그 순간 건너편 아파트에서 누군가 시그널을 보내온다.
+                        또 다른 생존자 ‘유빈’(박신혜)이 아직 살아있음을 알게 된 ‘준우’는
+                        함께 살아남기 위한 방법을 찾아 나서는데...!
+
+                        꼭 살아남아야 한다
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contents-mid-six">
+          <div class="contents-mid-left2 musicvideo">
+            <p style="font-size:30px"><b>MUSIC<br>
+              <span style="font-size:16px;">실시간 인기순</span></b>
+            </p>
+          </div>
+
+          <div class="contents-mid-right2">
+            <ul>
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/musicvideo(desktop)/rain-ggang.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>비(rain) - 깡</h2>
+                        <br>
+                        <span>
+                          작사  Magic Mansion, Ltak<br>
+                          작곡  Magic Mansion<br>
+                          편곡  Magic Mansion<br>
+                          <hr>
+                          <h3>가사</h3>
+                          <br>
+                          Yeah 다시 돌아왔지 <br>
+                          내 이름 레인(RAIN) <br>
+                          스웩을 뽐내 WHOO! <br>
+                          They call it! 왕의 귀환 <br>
+                          후배들 바빠지는 중! <br>
+                          신발끈 꽉 매고 <br>
+                          스케줄 All Day <br>
+                          내 매니저 전화기는 <br>
+                          조용할 일이 없네 WHOO! <br>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/musicvideo(desktop)/red-picaboo.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>레드 벨벳 - 피카부(Peek-A-Boo)</h2>
+                        <br>
+                        <span>
+                          작사  Kenzie<br>
+                          작곡  Moonshine, ANGEL, Cazzi Opeia<br>
+                          편곡  Moonshine<br>
+                          <hr>
+                          <h3>가사</h3>
+                          <br>
+                          Uhm yeah yah <br>
+                          <br>
+                          Oh gosh 난리야 (Oh gosh)<br>
+                          맞아 난 좀 기분파<br>
+                          헤 금방 또 사랑에 빠져<br>
+                          (Yeah yeah yeah yeah)<br>
+                          새것만 좋아해요 반짝거리죠<br>
+                          다들 그렇잖아요 맞죠?<br>
+                          <br>
+                          Peek-A-Boo!<br>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="last">
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/musicvideo(desktop)/blackpink.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>블랙핑크 - How You Like That</h2>
+                        <br>
+                        <span>
+                          작사  TEDDY, Danny Chung<br>
+                          작곡  TEDDY, R.Tee, 24<br>
+                          편곡  R.Tee, 24<br>
+                          <hr>
+                          <h3>가사</h3>
+                          <br>
+                          보란 듯이 무너졌어<br>
+                          바닥을 뚫고 저 지하까지<br>
+                          옷 끝자락 잡겠다고<br>
+                          저 높이 두 손을 뻗어봐도<br>
+                          <br>
+                          다시 캄캄한 이곳에 light up the sky<br>
+                          네 두 눈을 보며 I’ll kiss you goodbye<br>
+                          실컷 비웃어라 꼴좋으니까<br>
+                          이제 너희 하나 둘 셋<br>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+            </ul>
+
+            <ul>
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/musicvideo(desktop)/changmo-meteor.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>창모 - METEOR</h2>
+                        <br>
+                        <span>
+                          작사  창모(CHANGMO)<br>
+                          작곡  창모(CHANGMO)<br>
+                          편곡  창모(CHANGMO)<br>
+                          <hr>
+                          <h3>가사</h3>
+                          <br>
+                          Yeah, ha x 6 <br><br>
+
+                          모두 그에게 말해 또 왔네 (새꺄 whut?)<br>
+                          죽지 않고 왔다 이렇게 (새꺄 뭐?)<br>
+                          Snacky chan의 라인을 빌릴래<br>
+                          했어 예수처럼 이렇게 부활을<br>
+                          031 팔 안쪽의 tatt freaky woah<br>
+                          어젠 시장님이 만나쟤 motown<br>
+                          어수룩해 엄마 속에 걱정<br>
+                          한 톤만큼 쌓고 스물한살에 독립했던 얘는<br>
+                          여섯이 되었고<br>
+                          발견했지 우연히 5년 전의 노트<br>
+                          “정말 스타 되고 싶어<br>
+                          그럴려면 가서 만나면 돼 악마?”<br>
+                          노트를 덮고<br>
+                          거울에 비춰진 남자를 보니 와<br>
+                          저 손목이 너무 부러워<br>
+                          저 금 daydate rollie 넘을걸 천백은 더<br>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/musicvideo(desktop)/bts-on.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>방탄소년단 - ON</h2>
+                        <br>
+                        <span>
+                          작사  창모(CHANGMO<br>
+                          작곡  창모(CHANGMO)<br>
+                          편곡  창모(CHANGMO)<br>
+                          <hr>
+                          <h3>가사</h3>
+                          <br>
+                          I can't understand what people are sayin'
+                          어느 장단에 맞춰야 될지
+                          한 발자국 떼면 한 발자국 커지는 shadow
+                          잠에서 눈을 뜬 여긴 또 어디
+                          어쩜 서울 또 New York or Paris
+                          일어나니 휘청이는 몸
+
+                          Look at my feet, look down
+                          날 닮은 그림자
+                          흔들리는 건 이놈인가
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="last">
+                <a>
+                  <div class="card middle">
+                    <div class="front">
+                      <img src="image/contents(desktop)/musicvideo(desktop)/red.jpg">
+                    </div>
+
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h2>볼빨간 사춘기 - 나비와 고양이</h2>
+                        <br>
+                        <span>
+                          작사  안지영<br>
+                          작곡  안지영, 바닐라맨(바닐라 어쿠스틱)<br>
+                          편곡  바닐라맨(바닐라 어쿠스틱)<br>
+                          <hr>
+                          나를 보면 숨어요 어디든 자유롭게 날아요<br>
+                          이 날씨도 그댈 위한 거예요<br>
+                          난 너를 찾아요 그러면 그댄 어디든 있어요<br>
+                          내 손 위에 머물러 잠시 앉아 쉬어요<br>
+                          <br>
+                          몰래몰래 그대를 보아요<br>
+                          사랑스런 날개 그댄 어디서 온 건가요<br>
+                          말하지 못한 채 나 손을 뻗어요<br>
+                          보랏빛 날개 그대는 달아요<br>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+    </section>
+    <!-- 컨텐츠 end-->
+    <!-- </div> -->
+
+    <button id="btnScroll">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+
+
+		<!-- <div class="footer"> -->
+    <footer>
+        <div class="footer-top">
+          <ul class="rolling">
+
+            <li>
+              <a href="faq.html">[안내]회사 분할에 따른 MODIA 개인정보 이전 안내(2020년 8월 1일)</a>
+            </li>
+
+            <li>
+              <a href="faq.html">[안내]MODIA 이용약관 및 유료이용약관 개정 안내(2020년 8월 1일)</a>
+            </li>
+
+            <li>
+              <a href="faq.html">[안내]인스타그램 한시적 로그인 불가 안내</a>
+            </li>
+
+            <li>
+              <a href="faq.html">[안내]MODIA CJ ONE 맴버쉽 포인트 적립율 변경 안내</a>
+            </li>
+
+            <li>
+              <a href="faq.html">[안내]판매 중단된 일부 이용권 서비스 종료 안내</a>
+            </li>
+
+          </ul>
+        </div>
+        <!-- <a class="rolling_stop">롤링 멈춤</a>
+        <a class="rolling_start">롤링 시작</a> -->
+
+        <div class="footer-bot">
+            <!-- <h3 style="font-size:25px"><a href="#">Service Center</a></h3> -->
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p>
+              <h5>1670-8208</h5>
+              <span class="footer-bot-faq">
+                월 ~ 금 09:00~18:00 (점심시간 12:00~13:00) 공휴일 & 주말 1:1 채팅 상담만<br> 가능항공권 환불,변경,접수 : 월 ~ 금 09:00~17:00
+              </span>
+              <br><br>
+              <span>
+                대표이사 : 구원모  |  개인정보관리책임자 : 구원모  |  사업자등록번호 : 101-71-54540  |  통신판매신고번호 : 서초 제 11115호<br>
+                본점 : 서울특별시 서초구 과천대로 870-13(방배동) | 사업장 : 서울특별시 마포구 상암산로 66(상암동)
+              </span><br>
+
+            </p>
+        </div>
+    </footer>
+		<!-- </div> -->
+
+    <!-- 검색 -->
+    <script type="text/javascript">
+      $(".btn").on("click", function() {
+        $(".input").toggleClass("inclicked");
+        $(".btn").toggleClass("close");
+      });
+    </script>
+
+    <!-- 스크롤 -->
+    <script type="text/javascript">
+      const btnScroll = document.querySelector("#btnScroll");
+
+      btnScroll.addEventListener("click",function() {
+        window.scrollTo({
+          top:0,
+          left:0,
+          behavior:"smooth"
+        });
+        // $("html, body").animate({ scrollTop:0 },"slow");
+      });
+    </script>
+
+  <!-- 토글메뉴 -->
+     <script>
+      $(function() {
+        $('.allmenu_view>a').click(function(){
+          $('.navi').toggle("fast");
+        });
+
+        $('.all_close').click(function(){
+          $('.navi').toggle(10,function(){
+          })
+        })
+      });
+    </script>
+
+    <!-- <script>
+      $(function() {
+        var b = $('.allmenu_view>a');
+        var c = $('.allmenu_view>div>ul>li');
+        b.click(function(){
+          c.toggle("fast");
+        });
+      });
+    </script> -->
+
+    <!-- <script>
+      $(function() {
+
+        $('.allmenu_view>div>ul>li').click(function() {
+          $('.allmenu_view>div>ul>li').children().find('.allmenu_view>div>ul>li>ul>li').slideToggle('slow');
+
+        })
+      })
+    </script> -->
+
+
+    <!-- 모바일 토글 in 토글 -->
+    <script>
+      $(function() {
+        $('.allmenu_view2>a').click(function() {
+          $('.allmenu_view2>div>ul>li').toggle("fast");
+        })
+      })
+    </script>
+
+    <script>
+      $(function(){
+        $('.c1').click(function(){
+          $('#sea1').slideToggle("fast");
+        })
+      })
+    </script>
+
+    <script>
+      $(function(){
+        $('.c2').click(function(){
+          $('#sea2').slideToggle("fast");
+        })
+      })
+    </script>
+
+    <script>
+      $(function(){
+        $('.c3').click(function(){
+          $('#sea3').slideToggle("fast");
+        })
+      })
+    </script>
+
+    <!-- 공지사항 -->
+    <script>
+      $(function() {
+        var height = $(".footer-top").height(); //공지사항의 높이값 계산
+        var num = $(".rolling li").length; //공지사항의 갯수 계산
+
+        var max = height * num;// 공지사항의 총 높이값 계산
+        var move = 0; //초기값 설정
+        function noticeRolling() { // 함수 선언
+          move = move + height;
+          $(".rolling").animate({"top":-move},600,function(){ //animate메서드를 사용해 부드럽게 top값을 올려줌
+            if (move >= max) { //최대값 보다 높이가 높아지면
+              $(this).css("top",0); //top 값을 0으로 되돌림
+              move = 0;
+            };
+          });
+        };
+        noteiceRollingOff = setInterval(noticeRolling,5000); //1초마다 움직이는 변수 선언
+        $(".rolling").append($(".rolling li").first().clone());
+
+      });
+    </script>
+
+    <!-- 토글 탭메뉴 -->
+    <script>
+      $(function(){
+        $('.navi-sub:first').show();
+        $('.tab-nav li').addClass('active');
+
+        $('.tab-nav li').click(function(event){
+          index = $(this).index();
+          $('.tab-nav li').removeClass('active');
+          $(this).addClass('active');
+          $('.navi-sub').hide();
+          $('.navi-sub').eq(index).show();
+        })
+      });
+    </script>
+
+    <!-- 모바일 토글 메뉴 -->
+    <!-- <script>
+        $(function(){
+          $('.toggle_btn').click(function(){
+            $('.header-right').slideDown("slow");
+          });
+
+          $('.all_close2').click(function(){
+            $('.header-right').slideUp("slow",function(){
+              $('.toggle_btn').slideDown("slow");
+            })
+          })
+        });
+    </script> -->
+
+    <!-- 모바일 토글 검색 -->
+    <script>
+        $(function(){
+          $('.fa-search').click(function(){
+            $('.search-form').toggle("fast");
+          });
+        });
+    </script>
+
+    <!-- 모바일 토글 매뉴 -->
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+ </body>
+</html>
